@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>自己紹介ページ（ポートフォリオ）</title>
+    <link rel="stylesheet" href="profile.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>自己紹介ページ</h1>
+      <p>Web制作 / 学生エンジニア</p>
+      <p>Yuta</p>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <nav class="nav">
+        <ul>
+          <li><a href="#profile">プロフィール</a></li>
+          <li><a href="#skills">スキル</a></li>
+          <li><a href="#portfolio">実績</a></li>
+          <li><a href="#contact">連絡先</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <!-- プロフィール -->
+      <section id="profile">
+        <img src="https://via.placeholder.com/150" alt="プロフィール画像" />
+        <h2>プロフィール</h2>
+        <p>
+          はじめまして。現在大学に通いながら、Web制作を学習しています。
+          HTML・CSS・JavaScriptを中心に、見やすく使いやすいサイト作りを意識しています。
+        </p>
+      </section>
+
+      <!-- スキル -->
+      <section id="skills">
+        <h2>スキル</h2>
+        <ul>
+          <li>HTML / CSS（レスポンシブ対応可）</li>
+          <li>JavaScript（簡単な動きの実装）</li>
+          <li>VS Code / GitHub</li>
+        </ul>
+      </section>
+
+      <!-- 制作実績 -->
+      <section id="portfolio">
+        <h2>制作実績</h2>
+
+        <div class="card">
+          <h3>ポートフォリオサイト</h3>
+          <p>
+            自己紹介用のWebサイトを作成しました。
+            他にも以下のものを作成しました。
+          </p>
+          <a href="https://nanaru788-code.github.io/portfolio/" target="_blank"
+            >サイトを見る
+            </a>
+        </div>
+
+        <div class="card">
+          <h3>模写コーディング</h3>
+          <p>既存サイトを参考にHTML/CSSで再現しました。</p>
+          <a href="#" target="_blank">詳細を見る</a>
+        </div>
+      </section>
+
+      <!-- 対応可能な業務 -->
+      <section id="works">
+        <h2>対応可能な業務</h2>
+        <ul>
+          <li>LPコーディング</li>
+          <li>レスポンシブ対応</li>
+          <li>簡単な修正・バグ対応</li>
+        </ul>
+      </section>
+
+      <!-- 連絡先 -->
+      <section id="contact">
+        <h2>連絡先</h2>
+        <p>お気軽にご連絡ください。</p>
+        <ul>
+          <li>Email：example@gmail.com</li>
+          <li><a href="#">Twitter</a></li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>ここに実績の詳細を書きます</p>
+      </div>
+    </div>
+
+    <footer>© 2026 Portfolio</footer>
+  </body>
+  <script src="script.js"></script>
+</html>
